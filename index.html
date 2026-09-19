@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>嘉碩電機技師事務所｜電機技師 郭明鐘｜嘉義電機工程</title>
+<meta name="description" content="嘉碩電機技師事務所｜電機技師郭明鐘，提供建築電氣設計、高低壓配電、工廠電力、太陽光電、電動車充電設備及電氣安全技術服務。">
+<meta name="keywords" content="嘉碩電機技師事務所,郭明鐘,嘉義電機技師,電氣設計,配電設計,充電樁,太陽光電,工廠配電">
+<meta name="theme-color" content="#08264a">
+<style>
+:root{--navy:#071a33;--blue:#075b9d;--cyan:#35c5f0;--gold:#eabf55;--bg:#f5f8fc;--text:#182638;--muted:#657489;--line:#dfe7ef}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:"Noto Sans TC","Microsoft JhengHei",Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.8}
+a{text-decoration:none;color:inherit}.container{max-width:1180px;margin:auto;padding:0 24px}
+header{position:fixed;z-index:50;top:0;left:0;width:100%;background:rgba(5,20,40,.96);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}
+.nav{height:74px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;font-weight:900}
+.logo{width:45px;height:45px;border-radius:11px;background:#fff;color:#0a3967;display:grid;place-items:center;font-size:27px;box-shadow:0 0 25px rgba(53,197,240,.25)}
+nav{display:flex;gap:25px;font-size:.94rem}nav a{color:#eaf4fc}nav a:hover{color:var(--cyan)}
+.menu{display:none;border:0;background:none;color:#fff;font-size:28px}
+.hero{padding:155px 0 85px;min-height:730px;background:radial-gradient(circle at 82% 28%,rgba(53,197,240,.28),transparent 27%),linear-gradient(135deg,#06172d,#0a3967 63%,#09294c);color:#fff;position:relative;overflow:hidden}
+.hero:before{content:"⚡";position:absolute;right:10%;top:125px;font-size:16rem;opacity:.045;transform:rotate(-12deg)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center;position:relative;z-index:2}
+.kicker{color:#8ce3ff;font-weight:800;letter-spacing:2px;font-size:.88rem}.hero h1{font-size:clamp(2.6rem,5.5vw,5rem);line-height:1.15;margin:15px 0 20px}.hero h1 em{font-style:normal;color:#8ce3ff}.hero p{color:#d7e7f5;font-size:1.12rem;max-width:690px}
+.actions{display:flex;gap:13px;flex-wrap:wrap;margin:30px 0}.btn{padding:12px 24px;border-radius:8px;font-weight:800;border:1px solid var(--cyan);display:inline-block}.btn.primary{background:var(--cyan);color:#06203a}.btn.outline{color:#fff}
+.hero-card{border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);backdrop-filter:blur(12px);padding:30px;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.2)}
+.hero-card .big{font-size:5rem;text-align:center;margin-bottom:8px}.hero-card h2{text-align:center}.hero-card p{text-align:center;color:#cfe2f2}.hero-contact{margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,.16);font-size:.95rem}
+section{padding:90px 0}.head{text-align:center;margin-bottom:48px}.head .tag{color:var(--blue);font-weight:900;letter-spacing:2px;font-size:.85rem}.head h2{font-size:2.35rem;margin:4px 0 8px}.head p{color:var(--muted);max-width:720px;margin:auto}
+.services{background:#fff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{padding:28px;background:#f8fafc;border:1px solid var(--line);border-radius:15px;transition:.25s}.card:hover{transform:translateY(-5px);box-shadow:0 15px 35px rgba(10,45,80,.1)}.icon{font-size:2.1rem}.card h3{margin:8px 0}.card p{color:var(--muted)}
+.about{background:#edf4f9}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:center}.about-visual{min-height:380px;border-radius:20px;background:linear-gradient(145deg,#09284b,#0877ae);display:grid;place-items:center;color:#fff;position:relative;overflow:hidden}.about-visual:after{content:"ELECTRICAL";position:absolute;font-size:4rem;font-weight:900;opacity:.07;bottom:15px;right:-10px}.bolt{font-size:10rem;filter:drop-shadow(0 0 25px rgba(53,197,240,.35))}.about h2{font-size:2.3rem;margin-bottom:15px}.about p{color:#526276;margin-bottom:13px}.check{list-style:none;margin-top:18px}.check li{margin:8px 0}.check li:before{content:"✓";color:var(--blue);font-weight:900;margin-right:10px}
+.fields{background:#fff}.field-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.field{padding:25px;border-radius:14px;background:linear-gradient(145deg,#0a2b50,#146a9e);color:#fff;min-height:170px;display:flex;flex-direction:column;justify-content:flex-end}.field:nth-child(2n){background:linear-gradient(145deg,#183d61,#397c9f)}.field .symbol{font-size:2.4rem;margin-bottom:auto}.field h3{font-size:1.25rem}.field p{opacity:.85}
+.process{background:#f1f5f9}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step{text-align:center;background:#fff;padding:25px;border-radius:14px;border:1px solid var(--line)}.num{width:42px;height:42px;border-radius:50%;margin:0 auto 12px;display:grid;place-items:center;background:var(--blue);color:#fff;font-weight:900}
+.contact{background:var(--navy);color:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px}.contact .head{text-align:left;margin-bottom:25px}.contact .head .tag{color:#8ce3ff}.contact .head h2{color:#fff}.contact .head p{color:#c8d8e7;margin:0}.details{margin-top:22px}.details div{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.12)}.details a:hover{color:var(--cyan)}
+.form{background:#fff;color:var(--text);padding:30px;border-radius:16px}.form h3{margin-bottom:15px}.form label{display:block;font-size:.9rem;font-weight:800;margin:11px 0 5px}.form input,.form textarea{width:100%;border:1px solid #d4dce5;border-radius:7px;padding:10px;font:inherit}.form textarea{height:110px;resize:vertical}.form button{margin-top:14px;width:100%;padding:12px;border:0;border-radius:7px;background:var(--blue);color:#fff;font-weight:900;cursor:pointer}
+footer{background:#04101f;color:#a9bacb;text-align:center;padding:26px}.floating{position:fixed;right:20px;bottom:20px;z-index:40;background:#0a7bba;color:#fff;padding:12px 17px;border-radius:50px;box-shadow:0 8px 25px rgba(0,0,0,.2);font-weight:800}
+@media(max-width:850px){nav{display:none}.menu{display:block}.nav.open nav{display:flex;position:absolute;left:0;top:74px;width:100%;background:#071a33;flex-direction:column;padding:15px 24px;gap:7px}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero{padding-top:130px}.cards,.field-grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.container{padding:0 18px}.cards,.field-grid,.steps{grid-template-columns:1fr}section{padding:70px 0}.hero{min-height:auto}.hero h1{font-size:2.7rem}.about-visual{min-height:260px}.bolt{font-size:7rem}}
+</style>
+</head>
+<body>
+<header><div class="container nav" id="nav">
+<a class="brand" href="#home"><span class="logo">⚡</span><span>嘉碩電機技師事務所</span></a>
+<nav><a href="#home">首頁</a><a href="#services">服務項目</a><a href="#about">關於我們</a><a href="#fields">工程領域</a><a href="#process">服務流程</a><a href="#contact">聯絡我們</a></nav>
+<button class="menu" onclick="document.getElementById('nav').classList.toggle('open')" aria-label="選單">☰</button>
+</div></header>
+
+<section class="hero" id="home"><div class="container hero-grid">
+<div><div class="kicker">ELECTRICAL ENGINEERING CONSULTING</div>
+<h1>專業電機工程<br><em>設計・簽證・技術服務</em></h1>
+<p>嘉碩電機技師事務所提供建築電氣、配電系統、工廠用電、太陽光電與電動車充電設備等工程技術服務，協助業主做好電力規劃與安全設計。</p>
+<div class="actions"><a class="btn primary" href="#contact">立即洽詢</a><a class="btn outline" href="#services">查看服務</a></div>
+</div>
+<div class="hero-card"><div class="big">⚡</div><h2>電機技師 郭明鐘</h2><p>專業、務實、重視工程安全與系統可靠性</p><div class="hero-contact">📍 嘉義縣大林鎮中山路1巷28號<br>📞 <a href="tel:0952176932">0952-176-932</a></div></div>
+</div></section>
+
+<section class="services" id="services"><div class="container">
+<div class="head"><div class="tag">OUR SERVICES</div><h2>專業服務項目</h2><p>依據工程條件與實際需求，提供電機工程規劃與技術支援。</p></div>
+<div class="cards">
+<div class="card"><div class="icon">⚡</div><h3>建築電氣設計</h3><p>照明、插座、幹線、分路及建築電氣系統規劃。</p></div>
+<div class="card"><div class="icon">🔌</div><h3>高低壓配電</h3><p>用電容量、變壓器、配電盤及保護設備規劃。</p></div>
+<div class="card"><div class="icon">🏭</div><h3>工廠電力系統</h3><p>工廠配電、設備用電與既有電力系統改善。</p></div>
+<div class="card"><div class="icon">☀️</div><h3>太陽光電</h3><p>光電發電設備配置及相關電氣系統規劃。</p></div>
+<div class="card"><div class="icon">🚗</div><h3>電動車充電設備</h3><p>EV充電樁容量評估、配電及保護系統規劃。</p></div>
+<div class="card"><div class="icon">🛡️</div><h3>電氣安全與改善</h3><p>過載、短路、突波、接地及設備安全檢討。</p></div>
+</div></div></section>
+
+<section class="about" id="about"><div class="container about-grid">
+<div class="about-visual"><div class="bolt">⚡</div></div>
+<div><div class="head" style="text-align:left;margin-bottom:20px"><div class="tag">ABOUT US</div><h2>關於嘉碩電機技師事務所</h2></div>
+<p><strong>嘉碩電機技師事務所</strong>由電機技師郭明鐘提供電機工程相關技術服務。</p>
+<p>以安全、可靠、合理及符合工程需求為原則，協助業主與建築、營造及機電團隊進行電氣系統規劃與設計。</p>
+<ul class="check"><li>建築與工業電氣系統規劃</li><li>高低壓配電及用電容量檢討</li><li>新能源與電動車充電應用</li><li>既有電力設備改善與技術諮詢</li></ul>
+</div></div></section>
+
+<section class="fields" id="fields"><div class="container"><div class="head"><div class="tag">ENGINEERING FIELDS</div><h2>工程服務領域</h2><p>依不同建築及產業需求提供電氣工程技術支援。</p></div>
+<div class="field-grid">
+<div class="field"><div class="symbol">🏠</div><h3>住宅／建築</h3><p>住宅、透天、商辦及公共建築</p></div>
+<div class="field"><div class="symbol">🏢</div><h3>商業用電</h3><p>商業空間及營業場所</p></div>
+<div class="field"><div class="symbol">🏭</div><h3>工廠配電</h3><p>工廠及機電設備用電</p></div>
+<div class="field"><div class="symbol">☀️</div><h3>再生能源</h3><p>太陽光電及電力應用</p></div>
+<div class="field"><div class="symbol">🚙</div><h3>EV充電</h3><p>電動車充電設備</p></div>
+<div class="field"><div class="symbol">🛡️</div><h3>電力安全</h3><p>保護、接地與系統改善</p></div>
+</div></div></section>
+
+<section class="process" id="process"><div class="container"><div class="head"><div class="tag">WORK PROCESS</div><h2>服務流程</h2><p>讓工程需求從初步諮詢到設計服務更清楚。</p></div>
+<div class="steps"><div class="step"><div class="num">1</div><h3>需求洽詢</h3><p>了解工程用途、地點及需求。</p></div><div class="step"><div class="num">2</div><h3>現況評估</h3><p>依工程條件進行資料與系統檢討。</p></div><div class="step"><div class="num">3</div><h3>規劃設計</h3><p>提出適合的電氣系統規劃。</p></div><div class="step"><div class="num">4</div><h3>技術服務</h3><p>依案件需求提供後續技術支援。</p></div></div></div></section>
+
+<section class="contact" id="contact"><div class="container contact-grid">
+<div><div class="head"><div class="tag">CONTACT US</div><h2>歡迎洽詢工程需求</h2><p>如有電氣設計、配電、充電樁、太陽光電或其他電機工程需求，歡迎與我們聯絡。</p></div>
+<div class="details"><div>👨‍🔧 <strong>電機技師</strong>　郭明鐘</div><div>📍 <strong>地址</strong>　嘉義縣大林鎮中山路1巷28號</div><div>📞 <strong>電話</strong>　<a href="tel:0952176932">0952-176-932</a></div></div></div>
+<div class="form"><h3>工程需求洽詢</h3><form onsubmit="event.preventDefault();alert('感謝您的洽詢！目前網站為靜態版，請直接撥打 0952-176-932 聯絡嘉碩電機技師事務所。');"><label>姓名</label><input required placeholder="請輸入姓名"><label>電話</label><input required type="tel" placeholder="請輸入聯絡電話"><label>需求內容</label><textarea required placeholder="例如：建築電氣設計、工廠配電、EV充電樁等"></textarea><button>送出洽詢</button></form></div>
+</div></section>
+
+<footer>© 2026 嘉碩電機技師事務所｜電機技師 郭明鐘｜嘉義縣大林鎮</footer>
+<a class="floating" href="tel:0952176932">📞 電話洽詢</a>
+</body></html>
